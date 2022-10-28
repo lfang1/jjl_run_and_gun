@@ -1,0 +1,237 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &3917924100040384446
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3917924100040384444}
+  - component: {fileID: 3917924100040384445}
+  m_Layer: 0
+  m_Name: AudioManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3917924100040384444
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3917924100040384446}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 4.7805595, y: -0.96998227, z: -172.04773}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3917924100040384445
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3917924100040384446}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fc973bd28cd7a47438c4b8852d441db9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  slowPitch: 0.5
+  realPitch: 1
+  sounds:
+  - name: Shatter
+    clip: {fileID: 8300000, guid: 7e468330b2a65104caab6fa14d36a2c6, type: 3}
+    mixGroup: 0
+    volume: 0.18
+    pitch: 1
+    pauseable: 1
+    loop: 0
+    playOnAwake: 0
+    source: {fileID: 0}
+  - name: Sizzle
+    clip: {fileID: 8300000, guid: 4af949da4316b514783bc33787830900, type: 3}
+    mixGroup: 0
+    volume: 0.202
+    pitch: 1
+    pauseable: 1
+    loop: 0
+    playOnAwake: 0
+    source: {fileID: 0}
+  - name: DoorUnlocked
+    clip: {fileID: 8300000, guid: 0e85e0301684f4915b87f4c1d4bb31fe, type: 3}
+    mixGroup: 0
+    volume: 0.422
+    pitch: 1
+    pauseable: 1
+    loop: 0
+    playOnAwake: 0
+    source: {fileID: 0}
+  - name: Hit1
+    clip: {fileID: 8300000, guid: 55bc6ad9cd6abda468bfe3f314423443, type: 3}
+    mixGroup: 0
+    volume: 0.141
+    pitch: 1
+    pauseable: 0
+    loop: 0
+    playOnAwake: 0
+    source: {fileID: 0}
+  - name: Hit2
+    clip: {fileID: 8300000, guid: 55bc6ad9cd6abda468bfe3f314423443, type: 3}
+    mixGroup: 0
+    volume: 0.156
+    pitch: 0.798
+    pauseable: 0
+    loop: 0
+    playOnAwake: 0
+    source: {fileID: 0}
+  - name: Wall1
+    clip: {fileID: 8300000, guid: 9cf54f4f67daf4f4490f9d3e8b456ced, type: 3}
+    mixGroup: 0
+    volume: 0.885
+    pitch: 1
+    pauseable: 0
+    loop: 0
+    playOnAwake: 0
+    source: {fileID: 0}
+  - name: BGM1
+    clip: {fileID: 8300000, guid: 9d31f57bbb2b747d9836d35601090544, type: 3}
+    mixGroup: 1
+    volume: 0.16
+    pitch: 1
+    pauseable: 0
+    loop: 1
+    playOnAwake: 1
+    source: {fileID: 0}
+  - name: BGM2
+    clip: {fileID: 8300000, guid: 50256e1718af94052acef70f7323f808, type: 3}
+    mixGroup: 1
+    volume: 0.16
+    pitch: 1
+    pauseable: 0
+    loop: 0
+    playOnAwake: 0
+    source: {fileID: 0}
+  - name: HandgunFire1
+    clip: {fileID: 8300000, guid: ff530b93e58f24674ba80d21d76517f3, type: 3}
+    mixGroup: 0
+    volume: 0.259
+    pitch: 1
+    pauseable: 0
+    loop: 0
+    playOnAwake: 0
+    source: {fileID: 0}
+  - name: MachineGunFire1
+    clip: {fileID: 8300000, guid: b1559217ebab2476f91b18d02bc7395d, type: 3}
+    mixGroup: 0
+    volume: 0.274
+    pitch: 1
+    pauseable: 0
+    loop: 0
+    playOnAwake: 0
+    source: {fileID: 0}
+  - name: ShotgunFire1
+    clip: {fileID: 8300000, guid: c869e7970e1cb405e999df1e8016ef17, type: 3}
+    mixGroup: 0
+    volume: 0.683
+    pitch: 1
+    pauseable: 0
+    loop: 0
+    playOnAwake: 0
+    source: {fileID: 0}
+  - name: BTNotReady
+    clip: {fileID: 8300000, guid: 3cc8d990f11cf424f9804eb8ca1ba447, type: 3}
+    mixGroup: 2
+    volume: 0.6
+    pitch: 1
+    pauseable: 0
+    loop: 0
+    playOnAwake: 0
+    source: {fileID: 0}
+  - name: UIOver
+    clip: {fileID: 8300000, guid: ac837cb93ec544f62ad1f07367650cc5, type: 3}
+    mixGroup: 2
+    volume: 0.25
+    pitch: 1
+    pauseable: 0
+    loop: 0
+    playOnAwake: 0
+    source: {fileID: 0}
+  - name: UIClick
+    clip: {fileID: 8300000, guid: e04bd2ce3edf648bd89bc5571947fef5, type: 3}
+    mixGroup: 2
+    volume: 0.2
+    pitch: 1
+    pauseable: 0
+    loop: 0
+    playOnAwake: 0
+    source: {fileID: 0}
+  - name: Pause
+    clip: {fileID: 8300000, guid: dc49316adec0e4dfe88a13b991185d37, type: 3}
+    mixGroup: 2
+    volume: 1
+    pitch: 1
+    pauseable: 0
+    loop: 0
+    playOnAwake: 0
+    source: {fileID: 0}
+  - name: EquipWeapon
+    clip: {fileID: 8300000, guid: e437d30571d354b7498b59fb94c155cf, type: 3}
+    mixGroup: 0
+    volume: 0.5
+    pitch: 1
+    pauseable: 1
+    loop: 0
+    playOnAwake: 0
+    source: {fileID: 0}
+  - name: Key
+    clip: {fileID: 8300000, guid: 079d6f03ad527438b87c9479e5094726, type: 3}
+    mixGroup: 0
+    volume: 0.4
+    pitch: 1
+    pauseable: 1
+    loop: 0
+    playOnAwake: 0
+    source: {fileID: 0}
+  - name: BTRecharge
+    clip: {fileID: 8300000, guid: ec1f44d1be6c342c881361f4ae166a5f, type: 3}
+    mixGroup: 0
+    volume: 0.5
+    pitch: 1
+    pauseable: 1
+    loop: 0
+    playOnAwake: 0
+    source: {fileID: 0}
+  - name: BTEnter
+    clip: {fileID: 8300000, guid: 50276ebeaddc940a98f8cf74f1bf2139, type: 3}
+    mixGroup: 0
+    volume: 0.6
+    pitch: 1
+    pauseable: 1
+    loop: 0
+    playOnAwake: 0
+    source: {fileID: 0}
+  - name: BTExit
+    clip: {fileID: 8300000, guid: 4a2bd653fbc2d412aac541063b0acdcd, type: 3}
+    mixGroup: 0
+    volume: 0.5
+    pitch: 1
+    pauseable: 1
+    loop: 0
+    playOnAwake: 0
+    source: {fileID: 0}
+  - name: SpawnEnemy
+    clip: {fileID: 8300000, guid: 570fdbb69afca43338311167afab1b07, type: 3}
+    mixGroup: 2
+    volume: 0.247
+    pitch: 1
+    pauseable: 0
+    loop: 0
+    playOnAwake: 0
+    source: {fileID: 0}

@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 2ebf2223215a342feb98e7ae0cd09ece
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - characterSettings: {instanceID: 0}
+  - soundGenerator: {fileID: 6968480575864341987, guid: bdb90ddef48cc4a4eb5b976a63a1e9e8, type: 3}
+  - dropped: {instanceID: 0}
+  - damageEffect: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
