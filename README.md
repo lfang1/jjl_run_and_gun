@@ -13,3 +13,8 @@ Level 2 Screenshot:
 
 
 This project could be run in Unitiy.
+
+Contribution:
+UI, art and levels: Jack Hoeg (40%)
+Levels and game characters: Jack Mac (30%)
+Game AI, levels, sounds: Le Fang (30%)
